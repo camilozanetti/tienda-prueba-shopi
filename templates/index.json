@@ -6,25 +6,25 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Bienvenido a Mi Tienda",
+            "heading": "Diseño e implementación de tiendas Shopify",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Plantilla de vista previa — personalizá imágenes, textos y colores desde el editor de temas.</p>",
+            "text": "<p>Camilo Zanetti — estrategia y ejecución para marcas que quieren vender online sin fricción.</p>",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Ver productos",
+            "button_label_1": "Ver servicios",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Hablemos",
+            "button_link_2": "/pages/contacto",
             "button_style_secondary_2": false
           }
         }
@@ -41,7 +41,7 @@
         "show_text_box": false,
         "image_behavior": "none",
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-4",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
@@ -53,8 +53,8 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Envío rápido",
-            "text": "<p>Recibí tu pedido en tiempo y forma, con seguimiento incluido.</p>",
+            "title": "Diseño a medida",
+            "text": "<p>Identidad visual y experiencia de compra pensadas para tu marca, no plantillas genéricas.</p>",
             "link_label": "",
             "link": ""
           }
@@ -62,8 +62,8 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "title": "Pago seguro",
-            "text": "<p>Todos los medios de pago, con la protección de Shopify.</p>",
+            "title": "Implementación técnica",
+            "text": "<p>Configuración completa de la tienda: productos, pagos, envíos e integraciones.</p>",
             "link_label": "",
             "link": ""
           }
@@ -71,8 +71,8 @@
         "column-3": {
           "type": "column",
           "settings": {
-            "title": "Cambios fáciles",
-            "text": "<p>Si algo no te cierra, te ayudamos a cambiarlo sin vueltas.</p>",
+            "title": "Acompañamiento post-lanzamiento",
+            "text": "<p>Soporte y mejoras continuas después de publicar, para que la tienda siga rindiendo.</p>",
             "link_label": "",
             "link": ""
           }
@@ -84,7 +84,7 @@
         "column-3"
       ],
       "settings": {
-        "title": "¿Por qué elegirnos?",
+        "title": "¿Qué incluye trabajar conmigo?",
         "heading_size": "h1",
         "image_width": "third",
         "image_ratio": "square",
@@ -104,7 +104,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Productos destacados",
+        "title": "Servicios",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -112,7 +112,7 @@
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -126,7 +126,61 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "padding_top": 44,
-        "padding_bottom": 36
+        "padding_bottom": 44
+      }
+    },
+    "process": {
+      "type": "multicolumn",
+      "blocks": {
+        "step-1": {
+          "type": "column",
+          "settings": {
+            "title": "1. Diagnóstico",
+            "text": "<p>Analizamos tu negocio, objetivos y catálogo para definir el alcance del proyecto.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step-2": {
+          "type": "column",
+          "settings": {
+            "title": "2. Diseño & desarrollo",
+            "text": "<p>Construimos la tienda sobre Shopify: diseño, productos, pagos y envíos.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step-3": {
+          "type": "column",
+          "settings": {
+            "title": "3. Lanzamiento y soporte",
+            "text": "<p>Publicamos la tienda y seguimos acompañando ajustes y mejoras.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step-1",
+        "step-2",
+        "step-3"
+      ],
+      "settings": {
+        "title": "Cómo trabajo",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_desktop": 3,
+        "column_width": "equal",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     },
     "about": {
@@ -135,22 +189,22 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Sobre nosotros",
+            "heading": "Sobre Camilo Zanetti",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Contale a tus clientes quién está detrás de la marca: tu historia, tus valores y qué te hace distinto. Este texto es de ejemplo, reemplazalo por el tuyo.</p>",
+            "text": "<p>Ayudo a marcas y emprendedores a lanzar y hacer crecer sus tiendas en Shopify, combinando diseño, estrategia y ejecución técnica. Este texto es de ejemplo, reemplazalo por tu bio real.</p>",
             "text_style": "body"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Conocé más",
-            "button_link": "",
+            "button_label": "Conocé mi trabajo",
+            "button_link": "#portafolio",
             "button_style_secondary": false
           }
         }
@@ -171,37 +225,44 @@
         "mobile_content_alignment": "left"
       }
     },
-    "newsletter": {
-      "type": "newsletter",
+    "cta": {
+      "type": "rich-text",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Sumáte a nuestra lista",
+            "heading": "¿Charlamos sobre tu proyecto?",
             "heading_size": "h1"
           }
         },
-        "paragraph": {
-          "type": "paragraph",
+        "text": {
+          "type": "text",
           "settings": {
-            "text": "<p>Enterate primero de nuevos productos y descuentos.</p>"
+            "text": "<p>Contame en qué etapa está tu negocio y armamos juntos la tienda que necesitás.</p>",
+            "text_style": "body"
           }
         },
-        "email_form": {
-          "type": "email_form",
-          "settings": {}
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Escribime",
+            "button_link": "/pages/contacto",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "heading",
-        "paragraph",
-        "email_form"
+        "text",
+        "button"
       ],
       "settings": {
-        "color_scheme": "scheme-2",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
@@ -209,7 +270,8 @@
     "image_banner",
     "value_props",
     "featured_collection",
+    "process",
     "about",
-    "newsletter"
+    "cta"
   ]
 }

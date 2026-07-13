@@ -121,6 +121,14 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 500;
 }
 
+.card__cta {
+  display: inline-flex;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
 /* Pill buttons everywhere, including inside cards */
 .button,
 .shopify-payment-button__button--unbranded {

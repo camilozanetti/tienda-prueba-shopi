@@ -117,6 +117,9 @@
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+      {%- if section.settings.kicker_text != blank -%}
+        <span class="banner__kicker">{{ section.settings.kicker_text | escape }}</span>
+      {%- endif -%}
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
@@ -175,6 +178,12 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "kicker_text",
+      "default": "Diseño & desarrollo Shopify",
+      "label": "Texto de la etiqueta superior (badge)"
+    },
     {
       "type": "image_picker",
       "id": "image",
